@@ -1,15 +1,15 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
-    cout << "Hola Mundo!" << endl;
 
- 
-    int edad = 28;
-    string nombre = "Juan";
-
-    cout << "Nombre: " << nombre << endl;
-    cout << "Edad: " << edad << endl;
+    vector<int> alumnado = {5, 10};
+    
+    for(int c: alumnado){
+    alumnado[c];
+}
+    
 
     return 0;
 }
