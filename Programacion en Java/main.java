@@ -4,14 +4,13 @@ public class main {
 
         // Variables
         String nombre = "Ivan";
-        int edad = 20;
-        double nota = 9.5;
+        int edad = 18;
+        double nota = 20;
 
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
         System.out.println("Nota: " + nota);
 
-      
         if (nota >= 7) {
             System.out.println("Aprobado!");
         } else {

@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     cout << "Hola Mundo!" << endl;
 
-    // Variables
-    int edad = 20;
+ 
+    int edad = 28;
     string nombre = "Juan";
 
     cout << "Nombre: " << nombre << endl;
