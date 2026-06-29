@@ -1,0 +1,3 @@
+/home/ivan-andres/Escritorio/Ejercicios/Programacion en C++/build/CMakeFiles/mi_app.dir
+/home/ivan-andres/Escritorio/Ejercicios/Programacion en C++/build/CMakeFiles/edit_cache.dir
+/home/ivan-andres/Escritorio/Ejercicios/Programacion en C++/build/CMakeFiles/rebuild_cache.dir

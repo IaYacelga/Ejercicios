@@ -1,23 +1,15 @@
 #include <iostream>
-#include <fstream>
-#include <string>
-using namespace std; 
+#include <mongocxx/client.hpp>
+#include <mongocxx/instance.hpp>
+#include <mongocxx/uri.hpp>
 
-
-int main(void){
-
-
-    ofstream nombres("nombres.txt"); 
-
-    if(!nombres.is_open()){
-        cout << "Error al abrir el archiv" << endl; 
-        return 1; 
-    }
+int main() {
+    mongocxx::instance inst{};
+    mongocxx::client client{mongocxx::uri{"mongodb://localhost:27017"}};
     
-
-   nombres << "IVAN ANDRES YACELGA MALITAXI" << endl; 
-   nombres.close(); 
-
-
+    mongocxx::database db = client["visual"];
+    
+    std::cout << "Conectado a MongoDB - base de datos: visual" << std::endl;
+    
     return 0;
 }
